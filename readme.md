@@ -26,7 +26,7 @@ Para executar este projeto, você precisará das seguintes ferramentas e versõe
 - [Davi Santiago](https://github.com/Davicas01) - dscpr@cesar.school
 - [Felipe Gonçalves Moxotó](https://github.com/Moxoto2k) - fgm@cesar.school
 - [Guilherme Vinícius](https://github.com/GuilhermeRangelSilva) - gvrs@cesar.school
-- [Gustavo Marcone]() - gmal@cesar.school
+- [Gustavo Marcone](https://github.com/Gustaguiar02) - gmal@cesar.school
 - [Kaike Campos](https://github.com/Kaik-e) - kcma@cesar.school 
 
 
