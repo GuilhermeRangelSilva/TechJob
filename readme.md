@@ -19,8 +19,8 @@ https://cesar-team-cl0vsbag.atlassian.net/jira/software/projects/TEC/boards/1/ba
 
 ## Entregas 📦
 
-Semana 1
-Backlogs das histórias
+### Semana 1
+- Backlogs das histórias
 ![Backlogs das histórias](img/historias.png)
 
 ## Desenvolvido por:
