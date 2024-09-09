@@ -19,7 +19,7 @@ https://cesar-team-cl0vsbag.atlassian.net/jira/software/projects/TEC/boards/1/ba
 
 ## Entregas 📦
 
-![Backlogs das histórias](TechJob/img/historias.png)
+![Backlogs das histórias](C:\Users\guivr\OneDrive\Documentos\TechJob\img)
 
 ## Desenvolvido por:
 
