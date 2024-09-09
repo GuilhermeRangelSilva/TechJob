@@ -22,11 +22,11 @@ Para executar este projeto, você precisará das seguintes ferramentas e versõe
 
 ## Desenvolvido por:
 
-- [Caio Augusto]() - camm@cesar.school
-- [Davi Santiago]() - dscpr@cesar.school
+- [Caio Augusto](https://github.com/CaioAugustoMachadoDeMelo) - camm@cesar.school
+- [Davi Santiago](https://github.com/Davicas01) - dscpr@cesar.school
 - [Felipe Gonçalves Moxotó](https://github.com/Moxoto2k) - fgm@cesar.school
 - [Guilherme Vinícius](https://github.com/GuilhermeRangelSilva) - gvrs@cesar.school
 - [Gustavo Marcone]() - gmal@cesar.school
-- [Kaike Campos]() - 
+- [Kaike Campos](https://github.com/Kaik-e) - kcma@cesar.school 
 
 
