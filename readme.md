@@ -21,9 +21,9 @@ https://cesar-team-cl0vsbag.atlassian.net/jira/software/projects/TEC/boards/1/ba
 
 ### Semana 1
 
-**Backlogs das histórias**
+**Backlog das histórias**
 
-![Backlogs das histórias](img/historias.png)
+![Backlog das histórias](img/historias.png)
 
 ## Desenvolvido por:
 
