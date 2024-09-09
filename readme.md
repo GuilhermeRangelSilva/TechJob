@@ -1,10 +1,10 @@
-# TechJob
+# TechJob 🚀
 
 O TechConnect será um aplicativo inovador voltado para profissionais de TI e design, projetado para conectar talentos a oportunidades de emprego e facilitar a criação de startups. O objetivo é oferecer uma plataforma completa que integra funcionalidades para networking, exibição de portfólios online e ferramentas de colaboração. Com uma interface intuitiva e fácil de usar, o TechConnect permite que profissionais atualizem e compartilhem seus portfólios, descubram e se conectem com empresas que buscam talentos, e colaborem em projetos estratégicos. A plataforma visa otimizar a busca por oportunidades de emprego, parcerias e desenvolvimento de novas ideias, proporcionando um ambiente dinâmico e eficiente para todos os envolvidos no mercado de tecnologia e design.
 
-## Manual de uso
+## Manual de uso 📖
 
-## Requisitos
+## Requisitos 📋
 
 Para executar este projeto, você precisará das seguintes ferramentas e versões:
 
@@ -14,11 +14,12 @@ Para executar este projeto, você precisará das seguintes ferramentas e versõe
 - **GitHub**: Para controle de versão e colaboração. [GitHub](https://github.com/)
 - **Jira**: Para gerenciamento de projetos e tarefas. [Jira](https://www.atlassian.com/software/jira)
 
-## Links
+## Links 🔗
+https://cesar-team-cl0vsbag.atlassian.net/jira/software/projects/TEC/boards/1/backlog?assignee=unassigned
 
+## Entregas 📦
 
-## Entregas
-
+![Backlogs das histórias](TechJob/img/historias.png)
 
 ## Desenvolvido por:
 
