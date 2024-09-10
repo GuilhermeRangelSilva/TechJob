@@ -16,7 +16,7 @@ Para executar este projeto, você precisará das seguintes ferramentas e versõe
 
 ## Links 🔗
 - https://cesar-team-cl0vsbag.atlassian.net/jira/software/projects/TEC/boards/1/backlog?assignee=unassigned
-- https://www.figma.com/design/wy3al55ytbCJGAoTPjeKyI/Untitled?node-id=0-1&node-type=canvas&t=1Z0sYzX13y6Dh0xm-0)
+- https://www.figma.com/design/wy3al55ytbCJGAoTPjeKyI/Untitled?node-id=0-1&node-type=canvas&t=1Z0sYzX13y6Dh0xm-0
 
 ## Entregas 📦
 
