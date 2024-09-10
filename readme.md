@@ -15,7 +15,8 @@ Para executar este projeto, você precisará das seguintes ferramentas e versõe
 - **Jira**: Para gerenciamento de projetos e tarefas. [Jira](https://www.atlassian.com/software/jira)
 
 ## Links 🔗
-https://cesar-team-cl0vsbag.atlassian.net/jira/software/projects/TEC/boards/1/backlog?assignee=unassigned
+- https://cesar-team-cl0vsbag.atlassian.net/jira/software/projects/TEC/boards/1/backlog?assignee=unassigned
+- https://www.figma.com/design/wy3al55ytbCJGAoTPjeKyI/Untitled?node-id=0-1&node-type=canvas&t=1Z0sYzX13y6Dh0xm-0)
 
 ## Entregas 📦
 
@@ -24,6 +25,27 @@ https://cesar-team-cl0vsbag.atlassian.net/jira/software/projects/TEC/boards/1/ba
 **Backlog das histórias**
 
 ![Backlog das histórias](img/historias.png)
+
+**Protótipos Lo-Fi**
+
+#### Tela de Login
+![Login](img/login.png)
+
+#### Front Page
+
+![pagPrincipal](img/frontpage.png)
+
+#### Perfil do Usuário
+
+![telaUsuário](img/perfilusuario.png)
+
+#### Perfil da Empresa
+
+![telaEmpresa](img/perfilempresa.png)
+
+#### Chat
+
+![Chat](img/chat.png)
 
 ## Desenvolvido por:
 
