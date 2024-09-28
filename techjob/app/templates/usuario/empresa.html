@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% load static %}
-    <title>Página Inicial</title>
+    <title>Página Inicial - TechJob</title>
     <link rel="stylesheet" href="{% static 'css/empresa.css' %}"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMp0R5JwP5gD5DZc+jx+J4/X5G40h3P4G5F5g9" crossorigin="anonymous">
 </head>
@@ -23,6 +23,17 @@
             </div>
         </div>
     </nav>
+
+    <div class="card">
+        <div class="card-top"></div> <!-- Parte superior preta do card -->
+        <div class="profile-picture"></div>
+        <div class="card-bottom"> <!-- Parte inferior cinza do card -->
+            <div class="username">Nome da Empresa</div>
+            <div class="description">Descrição breve sobre a empresa e seus serviços.</div>
+            <div class="skills-title">Serviços Oferecidos</div>
+            <div class="skills">Desenvolvimento Web, Consultoria, Design Gráfico, Marketing Digital</div>
+        </div>
+    </div>
     
     <script src="{% static 'js/empresa.js' %}"></script>
 </body>

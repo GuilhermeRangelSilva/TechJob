@@ -14,14 +14,14 @@ body {
     background-color: #333;
     padding: 0.5rem 1rem; 
     display: flex;
-    justify-content: space-between; /* Mantenha o espaço entre os elementos */
+    justify-content: space-between;
     align-items: center;
 }
 
 .container-fluid {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Alinha os itens */
+    justify-content: space-between; 
     width: 100%;
 }
 
@@ -32,18 +32,18 @@ body {
 
 .search-container {
     display: flex;
-    align-items: center; /* Alinha verticalmente */
-    justify-content: center; /* Centraliza a barra de pesquisa */
-    flex: 1; /* Permite que a barra de pesquisa ocupe o espaço restante */
+    align-items: center; 
+    justify-content: center; 
+    flex: 1; 
 }
 
 .search-container input {
-    padding: 0.5rem; /* Ajusta o preenchimento */
+    padding: 0.5rem; 
     border: 1px solid #ccc;
     border-radius: 0.4rem;
-    width: 15rem; /* Ajusta a largura do campo de pesquisa */
+    width: 15rem; 
     font-size: 1rem;
-    margin-right: 0.5rem; /* Espaço entre o input e o ícone */
+    margin-right: 0.5rem; 
 }
 
 .search-icon {
@@ -54,7 +54,7 @@ body {
 .navbar-links {
     display: flex;
     align-items: center;
-    flex: 0 0 auto; /* Impede que os links se expandam */
+    flex: 0 0 auto; 
 }
 
 .profile-icon {
@@ -72,4 +72,97 @@ body {
 .profile-icon i {
     color: #fff;
     font-size: 0.8rem;
+}
+
+.card {
+    width: 650px; /* Largura do card */
+    height: 500px; /* Altura do card */
+    background: linear-gradient(to bottom, #000, #333, #ccc); /* Gradiente de cor */
+    border-radius: 30px; /* Aumentar para cantos mais arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    position: relative; /* Para posicionar a linha */
+    margin: 80px auto; /* Aumentar a margem em torno do card */
+}
+
+.card::after {
+    content: ""; /* Cria uma linha */
+    position: absolute;
+    top: 25%; /* Subir a linha para 25% do card */
+    left: 0;
+    right: 0;
+    height: 1px; /* Altura da linha */
+    background-color: #ccc; /* Cor da linha (cinza) */
+    transform: translateY(-50%); /* Centraliza a linha verticalmente */
+}
+
+.card-top {
+    background-color: transparent; /* Deixar transparente para o gradiente */
+    height: 25%; /* Altura da parte superior */
+    position: absolute; /* Para posicionamento */
+    top: 0; /* Começa no topo do card */
+    left: 0;
+    right: 0;
+    z-index: 1; /* Coloca acima da linha */
+}
+
+.card-bottom {
+    background-color: #666; /* Cinza mais escuro para a parte inferior */
+    height: calc(100% - 25%); /* Altura do fundo inferior */
+    position: absolute; /* Para posicionamento */
+    top: 25%; /* Para alinhar o fundo abaixo da linha */
+    width: 100%; /* Largura total */
+    border-bottom-left-radius: 30px; /* Bordas arredondadas */
+    border-bottom-right-radius: 30px; /* Bordas arredondadas */
+    padding: 20px; /* Adiciona espaçamento interno */
+    box-sizing: border-box; /* Inclui padding na largura total */
+}
+
+.profile-picture {
+    width: 160px; /* Aumentar a largura da foto de perfil */
+    height: 160px; /* Aumentar a altura da foto de perfil */
+    background-color: #fff; /* Cor de fundo da foto de perfil */
+    border-radius: 50%; /* Tornar a foto de perfil redonda */
+    position: absolute; /* Para posicionamento */
+    top: 50px; /* Ajustar a posição para manter a harmonia */
+    left: 20px; /* Margem esquerda */
+    border: 5px solid #ccc; /* Borda cinza */
+    z-index: 2; /* Coloca a imagem acima da linha */
+}
+
+.username {
+    position: absolute; /* Para posicionamento */
+    top: 130px; /* Posição abaixo da foto de perfil */
+    left: 20px; /* Alinhamento à esquerda */
+    font-weight: bold; /* Negrito */
+    color: #fff; /* Cor do texto */
+    font-size: 1.5rem; /* Tamanho do texto */
+    font-family: 'Arial', sans-serif; /* Fonte bonita */
+}
+
+.description {
+    position: absolute; /* Para posicionamento */
+    top: 160px; /* Posição abaixo do nome de usuário */
+    left: 20px; /* Alinhamento à esquerda */
+    color: #fff; /* Cor do texto */
+    font-size: 1rem; /* Tamanho do texto */
+    font-family: 'Arial', sans-serif; /* Fonte bonita */
+}
+
+.skills-title {
+    position: absolute; /* Para posicionamento */
+    top: 230px; /* Posição abaixo da descrição */
+    left: 20px; /* Alinhamento à esquerda */
+    font-weight: bold; /* Negrito */
+    color: #fff; /* Cor do texto */
+    font-size: 1.5rem; /* Tamanho do texto */
+    font-family: 'Arial', sans-serif; /* Fonte bonita */
+}
+
+.skills {
+    position: absolute; /* Para posicionamento */
+    top: 260px; /* Posição abaixo do título de Skills */
+    left: 20px; /* Alinhamento à esquerda */
+    color: #fff; /* Cor do texto */
+    font-size: 1rem; /* Tamanho do texto */
+    font-family: 'Arial', sans-serif; /* Fonte bonita */
 }
