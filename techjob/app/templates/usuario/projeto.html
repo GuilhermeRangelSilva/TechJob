@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levas Project</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/projeto.css' %}"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-brand">TechJob</div>
+            <div class="navbar-links">
+                <div class="profile-icon" onclick="window.location.href='profile.html'">
+                    <i class="fas fa-user"></i> 
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="search-container">
+        <input type="text" placeholder="Pesquisar...">
+        <span class="search-icon">🔍</span> 
+    </div>
+
+    <div class="container">
+        <div class="cartao-projeto">
+            <div class="cabecalho-projeto">
+                <img src="placeholder-image.jpg" alt="Imagem do Projeto" class="imagem-projeto">
+                <div class="informacoes-projeto">
+                    <h2>Levas Project</h2>
+                    <p>Dashboard Multifuncional</p>
+                    <div class="icones-tecnologias">
+                        <img src="ts-icon.png" alt="Ícone TypeScript">
+                        <img src="js-icon.png" alt="Ícone JavaScript">
+                    </div>
+                </div>
+                
+                <div class="acoes-projeto">
+                    <button class="botao-ver-mais">Ver mais</button>
+                    <button class="botao-contato">Contato</button>
+                </div>
+            </div>
+
+            <div class="vagas">
+                <h3>Vagas</h3>
+                <div class="lista-vagas">
+                    <span class="vaga">Desenvolvedor Web</span>
+                    <span class="vaga">UX/UI</span>
+                    <span class="vaga">Placeholder</span>
+                    <span class="vaga">Engenheiro de Dados</span>
+                    <span class="vaga">Placeholder</span>
+                    <span class="vaga">Gerente de Projetos</span>
+                    <span class="vaga">Visual</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

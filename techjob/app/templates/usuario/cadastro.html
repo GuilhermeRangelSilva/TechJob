@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% load static %} 
@@ -25,6 +24,15 @@
                     <input type="text" class="form-control" id="usuario" name="usuario" required>
                 </div>
                 <div class="mb-3">
+                    <label for="password" class="form-label">Senha</label>
+                    <input type="password" class="form-control" id="password" name="password" required>
+                </div>
+                <div class="mb-3">
+                    <label for="confirm_password" class="form-label">Confirmar Senha</label>
+                    <input type="password" class="form-control" id="confirm_password" name="confirm_password" required>
+                </div>
+                
+                <div class="mb-3">
                     <label for="tipo_usuario" class="form-label">Tipo de Usuário</label>
                     <select class="form-select" id="tipo_usuario" name="tipo_usuario" required onchange="toggleFields()">
                         <option value="">Escolha...</option>
@@ -33,7 +41,6 @@
                     </select>
                 </div>
     
-                
                 <div id="freelancer_fields" class="hidden">
                     <div class="mb-3">
                         <label for="nome" class="form-label">Nome</label> 
@@ -53,7 +60,6 @@
                     </div>
                 </div>
     
-                <!-- Campos para Empresa -->
                 <div id="empresa_fields" class="hidden">
                     <div class="mb-3">
                         <label for="nome_empresa" class="form-label">Nome da Empresa</label>

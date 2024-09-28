@@ -10,3 +10,5 @@ def freelancer(request):
     return render(request, 'usuario/freelancer.html')
 def empresa(request):
     return render(request, 'usuario/empresa.html')
+def projeto(request):
+    return render(request, 'usuario/projeto.html')
