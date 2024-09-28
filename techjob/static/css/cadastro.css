@@ -1,34 +1,87 @@
 body {
-    background-color: #f8f9fa; 
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar {
-    background-color: #343a40; 
+    background-color: #007bff;
+    padding: 1rem 2rem;
+    position: relative;
 }
 
 .navbar-brand {
-    color: #fff; 
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .container {
-    max-width: 600px; 
-    margin: auto; 
+    max-width: 600px;
+    margin: 5rem auto;
+    padding: 1rem;
 }
 
 .card {
-    border: none; 
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .card h2 {
-    color: #343a40; 
+    margin-bottom: 2rem;
+    color: #007bff;
+    text-align: center;
 }
 
-.btn-primary {
-    background-color: #007bff; 
-    border-color: #007bff; 
+.form-label {
+    font-weight: bold;
+    color: #495057;
+    margin-bottom: 0.5rem;
 }
 
-.btn-primary:hover {
-    background-color: #0056b3; 
-    border-color: #0056b3;
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.form-select {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+.mb-3 {
+    margin-bottom: 1.5rem;
 }
