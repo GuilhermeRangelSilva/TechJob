@@ -8,3 +8,5 @@ def home(request):
     return render(request, 'usuario/home.html')
 def freelancer(request):
     return render(request, 'usuario/freelancer.html')
+def empresa(request):
+    return render(request, 'usuario/empresa.html')
