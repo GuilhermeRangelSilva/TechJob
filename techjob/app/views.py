@@ -6,3 +6,5 @@ def login(request):
     return render(request, 'usuario/login.html')
 def home(request):
     return render(request, 'usuario/home.html')
+def freelancer(request):
+    return render(request, 'usuario/freelancer.html')

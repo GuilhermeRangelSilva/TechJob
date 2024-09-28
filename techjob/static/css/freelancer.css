@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 0.5rem 1rem; 
+    display: flex;
+    justify-content: space-between; /* Mantenha o espaço entre os elementos */
+    align-items: center;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Alinha os itens */
+    width: 100%;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.search-container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Centraliza a barra de pesquisa */
+    flex: 1; /* Permite que a barra de pesquisa ocupe o espaço restante */
+}
+
+.search-container input {
+    padding: 0.5rem; /* Ajusta o preenchimento */
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+    width: 15rem; /* Ajusta a largura do campo de pesquisa */
+    font-size: 1rem;
+    margin-right: 0.5rem; /* Espaço entre o input e o ícone */
+}
+
+.search-icon {
+    color: #999;
+    font-size: 1.2rem;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto; /* Impede que os links se expandam */
+}
+
+.profile-icon {
+    width: 28px; 
+    height: 28px; 
+    background-color: #555;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 0.8rem;
+}
+
+.profile-icon i {
+    color: #fff;
+    font-size: 0.8rem;
+}
