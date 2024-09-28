@@ -1,15 +1,17 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="static/css/cadastro.css">
+    {% load static %} 
+    <link rel="stylesheet" href="{% static 'css/cadastro.css' %}">
     <title>Cadastro de Usuário</title>
 </head>
 <body>
     <nav class="navbar">
         <div class="container-fluid">
-            <span class="navbar-brand">Registro</span> <!-- Texto 'Registro' na navbar -->
+            <span class="navbar-brand">Registro</span> 
         </div>
     </nav>
 
@@ -19,7 +21,7 @@
             <form id="registrationForm" method="post" action="{% url 'cadastro' %}">
                 {% csrf_token %} 
                 <div class="mb-3">
-                    <label for="usuario" class="form-label">Nome de Usuário</label> <!-- Campo Nome de Usuário -->
+                    <label for="usuario" class="form-label">Nome de Usuário</label> 
                     <input type="text" class="form-control" id="usuario" name="usuario" required>
                 </div>
                 <div class="mb-3">
@@ -31,10 +33,10 @@
                     </select>
                 </div>
     
-                <!-- Campos para Freelancer -->
+                
                 <div id="freelancer_fields" class="hidden">
                     <div class="mb-3">
-                        <label for="nome" class="form-label">Nome</label> <!-- Campo Nome do Freelancer -->
+                        <label for="nome" class="form-label">Nome</label> 
                         <input type="text" class="form-control" id="nome" name="nome" required>
                     </div>
                     <div class="mb-3">
@@ -68,12 +70,12 @@
                 </div>
     
                 <div class="text-center">
-                    <button type="submit" class="btn btn-primary hidden" id="submitBtn">Cadastrar</button> <!-- Mantendo a classe hidden -->
+                    <button type="submit" class="btn btn-primary hidden" id="submitBtn">Cadastrar</button> 
                 </div>
             </form>
         </div>
     </div>
     
-    <script src="static/js/cadastro.js"></script>
+    <script src="{% static 'js/cadastro.js' %}"></script>
 </body>
 </html>

@@ -1,11 +1,11 @@
 function toggleFields() {
-    console.log("toggleFields called"); // Adicione esta linha para depuração
+    console.log("toggleFields called"); 
     const tipoUsuario = document.getElementById('tipo_usuario').value;
     const freelancerFields = document.getElementById('freelancer_fields');
     const empresaFields = document.getElementById('empresa_fields');
     const submitBtn = document.getElementById('submitBtn');
 
-    // Limpar campos
+
     freelancerFields.classList.add('hidden');
     empresaFields.classList.add('hidden');
     submitBtn.classList.add('hidden');
