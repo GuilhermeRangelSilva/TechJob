@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 0.5rem 1rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-links {
+    position: absolute;
+    right: 1rem;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-icon {
+    width: 28px; 
+    height: 28px; 
+    background-color: #555;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 0.8rem;
+}
+
+.search-icon {
+    color: #999;
+    font-size: 1.2rem;
+    margin-left: -3rem;
+}
+
+.profile-icon i {
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6rem 0;
+}
+
+.search-container input {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+    width: 20rem;
+    font-size: 1rem;
+}
+
+.carousel {
+    position: relative; /* Para manter a posição relativa */
+    overflow: hidden;
+    height: 25rem; /* Aumenta a altura do carrossel */
+    margin: 3rem 0; /* Margem superior e inferior do carrossel */
+}
+.section-title:nth-of-type(2) {
+    margin-top: 4rem; /* Aumenta o espaçamento acima de "Destaques" */
+}
+.carousel-item {
+    margin-top: 6rem;
+    display: none;
+    height: auto;
+    text-align: center;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel-item img {
+    max-height: 15%;
+    width: 15%;
+    object-fit: contain;
+}
+
+/* Estilo atualizado para alinhar à esquerda */
+.section-title {
+    margin: 3rem 0 1.5rem 0;
+    font-size: 1.1rem;
+    color: #333;
+    text-align: left; /* Alinha à esquerda */
+    padding-left: 3rem; /* Adiciona um recuo da borda */
+}
+
+.highlight-section {
+    margin: 1rem 5rem 0;
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2rem; 
+}
+
+.highlight-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    text-align: center;
+    min-width: 10rem;
+}
+
+.highlight-item img {
+    width: 80%; /* Diminuir o tamanho das imagens para 80% da largura do container */
+    height: auto;
+}
+
+.highlight-item p {
+    padding: 0.4rem;
+    font-size: 0.7rem;
+}
+
+/* Estilos para a seção Novos Projetos */
+.new-projects-section {
+    margin-top: 4rem; /* Aumenta o espaço acima da seção Novos Projetos */
+    margin-bottom: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-project-item img {
+    width: 80%; /* Diminuir o tamanho das imagens para 80% da largura do container */
+    height: auto;
+    object-fit: cover;
+}
+
+/* Adicionando espaçamento entre seções */
+.section-title:nth-of-type(2) {
+    margin-top: 3rem; /* Espaçamento de 3rem acima de "Destaques" */
+}
