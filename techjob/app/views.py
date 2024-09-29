@@ -20,14 +20,14 @@ def cadastro(request):
         if usuario_form.is_valid():
             usuario = usuario_form.save()
 
-            # Verifica o tipo de usuário e processa os formulários correspondentes
+           
             if usuario.tipo_usuario == 'freelancer':
                 freelancer_form = FreelancerForms(request.POST)
                 if freelancer_form.is_valid():
                     freelancer = freelancer_form.save(commit=False)
                     freelancer.usuario = usuario
                     freelancer.save()
-                    return redirect('home')  # Redireciona para a página inicial
+                    return redirect('home')  
 
             elif usuario.tipo_usuario == 'empresa':
                 empresa_form = EmpresaForms(request.POST)
@@ -35,7 +35,7 @@ def cadastro(request):
                     empresa = empresa_form.save(commit=False)
                     empresa.usuario = usuario
                     empresa.save()
-                    return redirect('home')  # Redireciona para a página inicial
+                    return redirect('home') 
 
     else:
         usuario_form = UsuarioForms()

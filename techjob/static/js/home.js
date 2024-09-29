@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const carouselItems = document.querySelectorAll('.carousel-item');
     let currentIndex = 0;
 
-    // Mostrar o primeiro item do carrossel
     carouselItems[currentIndex].classList.add('active');
 
     function showNext() {
@@ -11,5 +10,5 @@ document.addEventListener('DOMContentLoaded', function () {
         carouselItems[currentIndex].classList.add('active');
     }
 
-    setInterval(showNext, 3000); // Muda a imagem a cada 3 segundos
+    setInterval(showNext, 3000); 
 });

@@ -75,94 +75,94 @@ body {
 }
 
 .card {
-    width: 650px; /* Largura do card */
-    height: 500px; /* Altura do card */
-    background: linear-gradient(to bottom, #000, #333, #ccc); /* Gradiente de cor */
-    border-radius: 30px; /* Aumentar para cantos mais arredondados */
+    width: 650px; 
+    height: 500px; 
+    background: linear-gradient(to bottom, #000, #333, #ccc); 
+    border-radius: 30px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    position: relative; /* Para posicionar a linha */
-    margin: 80px auto; /* Aumentar a margem em torno do card */
+    position: relative; 
+    margin: 80px auto; 
 }
 
 .card::after {
-    content: ""; /* Cria uma linha */
+    content: "";
     position: absolute;
-    top: 25%; /* Subir a linha para 25% do card */
+    top: 25%; 
     left: 0;
     right: 0;
-    height: 1px; /* Altura da linha */
-    background-color: #ccc; /* Cor da linha (cinza) */
-    transform: translateY(-50%); /* Centraliza a linha verticalmente */
+    height: 1px; 
+    background-color: #ccc; 
+    transform: translateY(-50%); 
 }
 
 .card-top {
-    background-color: transparent; /* Deixar transparente para o gradiente */
-    height: 25%; /* Altura da parte superior */
-    position: absolute; /* Para posicionamento */
-    top: 0; /* Começa no topo do card */
+    background-color: transparent; 
+    height: 25%; 
+    position: absolute; 
+    top: 0; 
     left: 0;
     right: 0;
-    z-index: 1; /* Coloca acima da linha */
+    z-index: 1; 
 }
 
 .card-bottom {
-    background-color: #666; /* Cinza mais escuro para a parte inferior */
-    height: calc(100% - 25%); /* Altura do fundo inferior */
-    position: absolute; /* Para posicionamento */
-    top: 25%; /* Para alinhar o fundo abaixo da linha */
-    width: 100%; /* Largura total */
-    border-bottom-left-radius: 30px; /* Bordas arredondadas */
-    border-bottom-right-radius: 30px; /* Bordas arredondadas */
-    padding: 20px; /* Adiciona espaçamento interno */
-    box-sizing: border-box; /* Inclui padding na largura total */
+    background-color: #666; 
+    height: calc(100% - 25%); 
+    position: absolute; 
+    top: 25%; 
+    width: 100%; 
+    border-bottom-left-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+    padding: 20px; 
+    box-sizing: border-box; 
 }
 
 .profile-picture {
-    width: 160px; /* Aumentar a largura da foto de perfil */
-    height: 160px; /* Aumentar a altura da foto de perfil */
-    background-color: #fff; /* Cor de fundo da foto de perfil */
-    border-radius: 50%; /* Tornar a foto de perfil redonda */
-    position: absolute; /* Para posicionamento */
-    top: 50px; /* Ajustar a posição para manter a harmonia */
-    left: 20px; /* Margem esquerda */
-    border: 5px solid #ccc; /* Borda cinza */
-    z-index: 2; /* Coloca a imagem acima da linha */
+    width: 160px; 
+    height: 160px; 
+    background-color: #fff; 
+    border-radius: 50%; 
+    position: absolute; 
+    top: 50px; 
+    left: 20px; 
+    border: 5px solid #ccc; 
+    z-index: 2; 
 }
 
 .username {
-    position: absolute; /* Para posicionamento */
-    top: 130px; /* Posição abaixo da foto de perfil */
-    left: 20px; /* Alinhamento à esquerda */
-    font-weight: bold; /* Negrito */
-    color: #fff; /* Cor do texto */
-    font-size: 1.5rem; /* Tamanho do texto */
-    font-family: 'Arial', sans-serif; /* Fonte bonita */
+    position: absolute; 
+    top: 130px; 
+    left: 20px; 
+    font-weight: bold; 
+    color: #fff; 
+    font-size: 1.5rem; 
+    font-family: 'Arial', sans-serif; 
 }
 
 .description {
-    position: absolute; /* Para posicionamento */
-    top: 160px; /* Posição abaixo do nome de usuário */
-    left: 20px; /* Alinhamento à esquerda */
-    color: #fff; /* Cor do texto */
-    font-size: 1rem; /* Tamanho do texto */
-    font-family: 'Arial', sans-serif; /* Fonte bonita */
+    position: absolute; 
+    top: 160px; 
+    left: 20px; 
+    color: #fff;
+    font-size: 1rem; 
+    font-family: 'Arial', sans-serif;
 }
 
 .skills-title {
-    position: absolute; /* Para posicionamento */
-    top: 230px; /* Posição abaixo da descrição */
-    left: 20px; /* Alinhamento à esquerda */
-    font-weight: bold; /* Negrito */
-    color: #fff; /* Cor do texto */
-    font-size: 1.5rem; /* Tamanho do texto */
-    font-family: 'Arial', sans-serif; /* Fonte bonita */
+    position: absolute; 
+    top: 230px; 
+    left: 20px; 
+    font-weight: bold; 
+    color: #fff; 
+    font-size: 1.5rem; 
+    font-family: 'Arial', sans-serif; 
 }
 
 .skills {
-    position: absolute; /* Para posicionamento */
-    top: 260px; /* Posição abaixo do título de Skills */
-    left: 20px; /* Alinhamento à esquerda */
-    color: #fff; /* Cor do texto */
-    font-size: 1rem; /* Tamanho do texto */
-    font-family: 'Arial', sans-serif; /* Fonte bonita */
+    position: absolute; 
+    top: 260px;
+    left: 20px; 
+    color: #fff; 
+    font-size: 1rem; 
+    font-family: 'Arial', sans-serif; 
 }
