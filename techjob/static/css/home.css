@@ -20,137 +20,91 @@ body {
 
 .container-fluid {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between; 
     width: 100%;
-}
-
-.navbar-links {
-    position: absolute;
-    right: 1rem;
 }
 
 .navbar-brand {
     color: #fff;
     font-size: 1.5rem;
-    margin: 0 auto;
-    text-align: center;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
 }
 
 .profile-icon {
-    width: 28px; 
-    height: 28px; 
-    background-color: #555;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
     cursor: pointer;
-    margin-left: 0.8rem;
+}
+
+.search-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin: 20px; 
+}
+
+.search-container input {
+    padding: 0.5rem; 
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+    width: 15rem; 
+    font-size: 1rem;
+    margin-right: 0.5rem; 
 }
 
 .search-icon {
     color: #999;
     font-size: 1.2rem;
-    margin-left: -3rem;
-}
-
-.profile-icon i {
-    color: #fff;
-    font-size: 0.8rem;
-}
-
-.search-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 6rem 0;
-}
-
-.search-container input {
-    padding: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 0.4rem;
-    width: 20rem;
-    font-size: 1rem;
+    cursor: pointer; 
 }
 
 .carousel {
+    margin: 60px auto; /* Aumentando a distância entre a barra de pesquisa e o carrossel */
+    width: 300px; 
+    height: 200px; 
+    overflow: hidden; 
     position: relative; 
-    overflow: hidden;
-    height: 25rem; 
-    margin: 3rem 0; 
-}
-.section-title:nth-of-type(2) {
-    margin-top: 4rem;
-}
-.carousel-item {
-    margin-top: 6rem;
-    display: none;
-    height: auto;
-    text-align: center;
 }
 
-.carousel-item.active {
-    display: block;
+.carousel-wrapper {
+    display: flex;
+    position: absolute; 
+    width: 100%; 
+}
+
+.carousel-item {
+    min-width: 100%; 
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
 }
 
 .carousel-item img {
-    max-height: 15%;
-    width: 15%;
-    object-fit: contain;
+    width: 100%; 
+    height: auto; 
 }
 
-
-.section-title {
-    margin: 3rem 0 1.5rem 0;
-    font-size: 1.1rem;
-    color: #333;
-    text-align: left;
-    padding-left: 3rem; 
+.carousel-item:nth-child(1) {
+    opacity: 1; 
 }
 
-.highlight-section {
-    margin: 1rem 5rem 0;
-    display: grid; 
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 2rem; 
+.destaques-title {
+    text-align: center; 
+    margin: 40px 0; /* Espaçamento acima e abaixo do título Destaques */
+    font-size: 1.5rem; /* Diminuindo o tamanho da fonte */
 }
 
-.highlight-item {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 0.4rem;
-    overflow: hidden;
-    text-align: center;
-    min-width: 10rem;
+.destaques-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 30px; /* Espaço entre as imagens de destaque */
 }
 
-.highlight-item img {
-    width: 80%; 
-    height: auto;
-}
-
-.highlight-item p {
-    padding: 0.4rem;
-    font-size: 0.7rem;
-}
-
-
-.new-projects-section {
-    margin-top: 4rem;
-    margin-bottom: 1rem;
-    flex-direction: column;
-    align-items: center;
-}
-
-.new-project-item img {
-    width: 80%; 
-    height: auto;
-    object-fit: cover;
-}
-
-
-.section-title:nth-of-type(2) {
-    margin-top: 3rem; 
+.destaque-item {
+    width: 150px; /* Aumentando o tamanho das imagens de destaque */
+    height: auto; /* Mantém a proporção da imagem */
 }
