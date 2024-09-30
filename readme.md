@@ -47,6 +47,12 @@ Para executar este projeto, você precisará das seguintes ferramentas e versõe
 
 ![Chat](img/chat.png)
 
+### Screencast
+
+<video width="600" controls>
+  <source src="img/screencast.mp4" type="video/mp4">
+</video>
+
 ## Desenvolvido por:
 
 - [Caio Augusto](https://github.com/CaioAugustoMachadoDeMelo) - camm@cesar.school
