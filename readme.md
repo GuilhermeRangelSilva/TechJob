@@ -49,9 +49,7 @@ Para executar este projeto, você precisará das seguintes ferramentas e versõe
 
 ### Screencast
 
-<video width="600" controls>
-  <source src="img/screencast.mp4" type="video/mp4">
-</video>
+![Screencast](img/screencast.mp4)
 
 ## Desenvolvido por:
 
